@@ -1,0 +1,20 @@
+# .gitignore file
+
+# Ignore sites/default/files directory
+sites/default/files
+
+# Ignore sites/default/settings.php file
+sites/default/settings.php
+
+# Ignore modules/contrib directory
+modules/contrib
+
+# Ignore themes/contrib directory
+themes/contrib
+
+# Ignore profiles/contrib directory
+profiles/contrib
+
+# Ignore the vendor directory
+vendor 
+
