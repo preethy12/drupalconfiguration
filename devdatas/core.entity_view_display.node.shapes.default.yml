@@ -1,0 +1,28 @@
+uuid: 395e5f8a-948d-4a87-abb5-e279160f46e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.shapes.body
+    - node.type.shapes
+  module:
+    - text
+    - user
+id: node.shapes.default
+targetEntityType: node
+bundle: shapes
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
