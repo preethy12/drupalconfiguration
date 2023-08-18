@@ -1,10 +1,9 @@
 # .gitignore file
 
-# Ignore sites/default/files directory
-sites/default/files
 
-# Ignore sites/default/settings.php file
-sites/default/settings.php
+
+# Ignore sites/default/ file
+sites/default/
 
 # Ignore modules/contrib directory
 modules/contrib
@@ -16,6 +15,6 @@ themes/contrib
 profiles/contrib
 
 # Ignore the vendor directory
-vendor 
+vendor
 
 /example.gitignore
