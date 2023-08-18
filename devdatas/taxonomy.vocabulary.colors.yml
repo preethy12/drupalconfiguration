@@ -1,0 +1,8 @@
+uuid: 03e0395d-2328-48dd-ab37-491dbeae1dbe
+langcode: en
+status: true
+dependencies: {  }
+name: Colors
+vid: colors
+description: ''
+weight: 0

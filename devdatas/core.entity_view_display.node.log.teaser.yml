@@ -1,19 +1,17 @@
-uuid: b9d721c6-fe50-45dd-a0a6-b83ff8120c52
+uuid: 091ac266-5107-42ac-880d-6ad0fe8a5417
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.shapes.body
-    - field.field.node.shapes.field_colors
-    - field.field.node.shapes.field_integers
-    - node.type.shapes
+    - field.field.node.log.body
+    - node.type.log
   module:
     - text
     - user
-id: node.shapes.teaser
+id: node.log.teaser
 targetEntityType: node
-bundle: shapes
+bundle: log
 mode: teaser
 content:
   body:
@@ -29,6 +27,4 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden:
-  field_colors: true
-  field_integers: true
+hidden: {  }

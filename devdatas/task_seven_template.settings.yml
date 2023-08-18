@@ -1,0 +1,5 @@
+title: hello
+Paragraph:
+  value: '<p>dsdjs</p>'
+  format: basic_html
+color_code: '#ff0000'

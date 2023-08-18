@@ -1,10 +1,15 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
+  admin_toolbar: 0
+  admin_toolbar_links_access_filter: 0
+  admin_toolbar_search: 0
+  admin_toolbar_tools: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
   block_content: 0
+  block_task: 0
   breakpoint: 0
   ckeditor5: 0
   comment: 0
@@ -13,6 +18,9 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  demo_module: 0
+  devel: 0
+  devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -31,11 +39,23 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  prepopulate_title: 0
   search: 0
   shortcut: 0
+  smtp: 0
   system: 0
+  table_task: 0
+  task_eight_access: 0
+  task_five_events: 0
+  task_nine_cron: 0
+  task_seven_template: 0
+  task_six_dropdown: 0
+  task_ten_formatter: 0
+  task_three: 0
   taxonomy: 0
   text: 0
+  thirteen_checkbox: 0
+  token: 0
   toolbar: 0
   tour: 0
   update: 0

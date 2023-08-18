@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.shapes.body
+    - field.field.node.shapes.field_colors
+    - field.field.node.shapes.field_integers
     - node.type.shapes
   module:
     - text
@@ -19,6 +21,22 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  field_colors:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_integers:
+    type: ''
+    label: above
+    settings:
+      concat: ''
+    third_party_settings: {  }
+    weight: 103
     region: content
   links:
     settings: {  }

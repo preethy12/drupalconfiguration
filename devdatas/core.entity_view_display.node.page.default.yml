@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_advanced
+    - field.field.node.page.field_tax
     - node.type.page
   module:
     - text
@@ -21,6 +23,24 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 100
+    region: content
+  field_advanced:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_tax:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
     region: content
   links:
     weight: 101

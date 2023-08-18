@@ -1,0 +1,21 @@
+uuid: bd3066f6-b77d-4a93-a1e1-caaa574899c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_task
+  theme:
+    - olivero
+id: blocktask
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: block_task_block_task
+settings:
+  id: block_task_block_task
+  label: 'block task'
+  label_display: visible
+  provider: block_task
+  entity_field: '1'
+visibility: {  }

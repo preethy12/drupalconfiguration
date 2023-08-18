@@ -1,0 +1,22 @@
+uuid: c6279071-dd6e-40ff-a5a7-3b4e4f971ecf
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_task
+  theme:
+    - olivero
+id: customblock
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: Custom_block
+settings:
+  id: Custom_block
+  label: ' custom block '
+  label_display: visible
+  provider: block_task
+  entity_field: '1'
+  display_mode: teaser
+visibility: {  }

@@ -1,0 +1,31 @@
+uuid: ff3bc4c7-a3b1-449b-820b-309d73b7cb01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tax
+    - node.type.page
+    - taxonomy.vocabulary.colors
+    - taxonomy.vocabulary.tags
+id: node.page.field_tax
+field_name: field_tax
+entity_type: node
+bundle: page
+label: tax
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      colors: colors
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: colors
+field_type: entity_reference

@@ -1,0 +1,28 @@
+uuid: 4db9053f-b631-429f-8bc1-3f200990f2bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.log.body
+    - node.type.log
+  module:
+    - text
+    - user
+id: node.log.default
+targetEntityType: node
+bundle: log
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
