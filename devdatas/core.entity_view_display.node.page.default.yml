@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.page.body
     - field.field.node.page.field_advanced
+    - field.field.node.page.field_category2
     - field.field.node.page.field_tax
     - node.type.page
   module:
@@ -33,6 +34,14 @@ content:
       format_custom_true: ''
     third_party_settings: {  }
     weight: 102
+    region: content
+  field_category2:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
     region: content
   field_tax:
     type: entity_reference_label

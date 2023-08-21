@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
     - field.field.node.page.field_advanced
+    - field.field.node.page.field_category2
     - field.field.node.page.field_tax
     - node.type.page
   module:
@@ -31,4 +32,5 @@ content:
     region: content
 hidden:
   field_advanced: true
+  field_category2: true
   field_tax: true

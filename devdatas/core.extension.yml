@@ -12,6 +12,7 @@ module:
   block_task: 0
   breakpoint: 0
   ckeditor5: 0
+  clone_view: 0
   comment: 0
   config: 0
   contact: 0
@@ -40,6 +41,7 @@ module:
   path: 0
   path_alias: 0
   prepopulate_title: 0
+  quick_node_clone: 0
   search: 0
   shortcut: 0
   smtp: 0
